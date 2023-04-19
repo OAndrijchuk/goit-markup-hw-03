@@ -50,6 +50,10 @@ ol {
   color: var(--btn-background-color);
   margin-right: 76px;
 }
+.footer .logo-link {
+  padding: 0;
+  margin-bottom: 16px;
+}
 .list {
   list-style: none;
 }
@@ -107,6 +111,7 @@ ol {
   line-height: 1.5;
   color: var(--title-text-color);
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 .menu-link:hover,
 .menu-link:focus {
