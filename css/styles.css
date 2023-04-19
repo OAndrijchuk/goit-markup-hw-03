@@ -31,8 +31,7 @@ ol {
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
 }
 .section {
   padding-top: 120px;
@@ -40,7 +39,7 @@ ol {
 }
 .logo-link {
   display: inline-block;
-  margin-bottom: 16px;
+  padding: 24px 0;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -84,7 +83,6 @@ ol {
 .page-header-container {
   display: flex;
   align-items: center;
-  padding: 24px 0;
 }
 .navigation {
   display: flex;
@@ -283,6 +281,7 @@ ol {
 .filter-btn:focus {
   background: var(--links-hover-color);
   color: #ffffff;
+  border: 1px solid transparent;
 }
 .project-cards {
   flex-wrap: wrap;
